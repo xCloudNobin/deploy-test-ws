@@ -68,5 +68,3 @@ const port = Number(process.env.PORT) || 3020;
 server.listen(port, "0.0.0.0", () => {
   console.log("listening", port, release());
 });
-
-this is an intentional syntax error [[[
